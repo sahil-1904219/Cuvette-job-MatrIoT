@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Check Fun</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="outerbody">
+      <div class="container">
+        <h1>Check Fun</h1>
+        <form id="check-fun-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" minlength="3" required />
+          <button type="submit" id="submit-btn" disabled>Check Fun</button>
+          <p class="error-msg" id="name-error-msg">
+            Name must be at least 3 characters long
+          </p>
+        </form>
+        <div id="result"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

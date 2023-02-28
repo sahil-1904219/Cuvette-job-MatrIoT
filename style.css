@@ -1,0 +1,84 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #8a9468;
+}
+.navbar {
+    top: 0;
+    background: #505f1c;
+    display: flex;
+    width: 100vw;  gap: 45%; 
+}
+.logo {
+    width: 5vw;
+    justify-content: space-between; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.logo img {
+    width: 110px;
+}
+.nav-logo{
+    font-family: 'Delius Unicase', cursive;
+    font-size: 42px;
+    align-items: center;
+    color: white;
+    display:flex;
+    justify-content: center; 
+    text-align: center; 
+    padding-left: 12%;
+}
+.nav-log{
+    font-family: 'Delius Unicase', cursive;
+    font-size: 42px;
+    align-items: center;
+    background: #505f1c;
+    color: white;
+    display: flex;
+    width: 100vw; 
+    display:flex;
+    justify-content: center; 
+    text-align: center; 
+}
+.card-container{
+    width: 80vw;
+    height: 74vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    width: 21%;
+    padding:10px 15px;
+    box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+    border-radius: 11px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.button-1 {
+    background-color: #fffff0;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .card-1{
+    justify-content: center;
+    background: #fffff0;
+}
